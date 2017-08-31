@@ -1,3 +1,12 @@
+/*  Excanged Colors
+    
+    old:  #3A6355       new:  #40806a
+    old:  #781125       new:  #D64541      
+    old:  #96731A       new:  #AF8518
+    old:  #999          new:  #939393  hover: E8E8E8 
+
+*/
+
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
@@ -8,26 +17,32 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
-  background: #2d2b30;
+  color: #40806a; /*#3A6355*/
+  background: #2d2b30; /*#2d2b30*/
 }
-
+ 
+h1 {
+  margin: 4.3rem 0 auto;
+  font-size: 4.5rem;
+  color: black;
+  font-weight: 500;
+}
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: #939393; /*#999*/
 }
 
 a:hover {
-  color: #999;
+  color: #E8E8E8; /*#999*/
 }
 
 /* Section Styles */
 
 .main-nav {
   width: 100%;
-  background: rgba(45, 43, 48, 0.8);
+  background: rgba(45, 43, 48, 0.8); /*#2d2b30*/
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -59,47 +74,54 @@ a:hover {
 }
 
 .nav a:hover {
-  color: white
+  color: #E8E8E8; /* white */
 }
 
 header {
   text-align: center;
-  background: url('../img/concert02_with_text.jpg') no-repeat top center ;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
 }
 
+/*
 .tag {
   color: black;
   padding: 10px;
   letter-spacing: 5px;
 }
+*/
 
 .name{
   font-weight: 300;
 }
 
+/*
 header .name{
-  font-size: 3em;
+font-size: 3em;
 }
+*/
+
+/*
 .tagline {
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  color: #781125
+  color: yellow; #781125
 }
+*/
 
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
   text-align: left;
-  border-top: 4px solid #781125;
+  border-top: 4px solid #D64541; /*#781125*/
   clear: both;
 }
 .card:hover {
-  border-color: #96731A;
+  border-color: #AF8518; /*#96731A*/
 }
 
 
@@ -120,7 +142,7 @@ header .name{
 .heading{
   font-size: 2em;
   text-transform: uppercase;
-  color: #781125;
+  color: #D64541; /*#781125*/
   margin-top: 10px;
 }
 
