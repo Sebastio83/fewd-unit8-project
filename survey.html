@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <div class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
@@ -23,13 +23,13 @@
       <h2 class="heading">we make awesome music</h2>
     </header>
 
-    <main>
+    <main role="main">
       <h3 class= "heading">Survey</h3>
       <div class="card">
         <div class="flex">
           <img class="photo" src= "img/concert01.jpg" alt="concert picture">
           <div class="container">
-            <form class = "survey">
+            <form class="survey" role="form" aria-lable="Favorites Form">
               <fieldset>
                 <legend>Who is your favorite band member:</legend>
                 <input id="john" type="radio" name="res" value="John">
@@ -72,7 +72,7 @@
         <div class="flex">
           <img class="photo" src= "img/the_band.jpg" alt="band picture">
             <div class="container">
-              <form class="newsletter">
+              <form class="newsletter" role="form" aria-label="Newsletter Form">
                 <div class="sign up">
                   <label for="name">Name: </label><input id="name" type ="text" name="textfield">
                 </div>
@@ -84,7 +84,9 @@
                 <p>
                   <label for="retype">Retype Email: </label><input id="retype" type ="email" name="textfield">
                 </p>
-                <button type="submit">Sign Up</button>
+                <button type="submit" aria-describedby="hint">Sign Up</button>
+                
+                <p id="hint">Click this button to submit the form and sign up for our newsletter.</p>
                
               </form>
             </div>
@@ -92,7 +94,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="twitter icon"></a></li>
         <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="youtube icon"></a></li>
