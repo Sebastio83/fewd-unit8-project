@@ -5,47 +5,12 @@
   padding: 10px;
 }
 
-form {
-  margin: 0 auto;
-  text-align: left;
-  display: inline-block;
-}
-
 .container{
   text-align: center;
 }
 .newsletter{
   text-align: right;
 }
-
-legend {
-  text-decoration: none;
-  text-align: left;
-  margin: 0 0 5px -2px;
-}
-
-fieldset {
-  color: #4DAF7C; /*#3A6355*/
-  background: #2d2b30; /*#2d2b30*/
-  border-style: none;
-}
-
-label {
-  display: block;
-  text-align: left;
-  margin: 5px 0;
-}
-
-.bandmember {
-  display: inline-block;
-}
-
-select,
-textarea {
-  display: block;
-  margin-top: 20px;
-}
-
 
 .signup {
     display: flex;
@@ -55,14 +20,64 @@ textarea {
     justify-content: flex-end;
 }
 
+.bandmember {
+  display: inline-block;
+}
+
 .signup input {
     margin: 10px 0px 10px;
 }
 
+#hint {
+  display: none;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+legend {
+  text-decoration: none;
+  text-align: left;
+  margin: 0 0 5px -2px;
+}
+
+fieldset {
+  color: #4DAF7C; 
+  background: #2d2b30; 
+  border-style: none;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 5px 0;
+}
+
+select,
+textarea {
+  display: block;
+  margin-top: 20px;
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid #BBD4D4;
+  outline-offset: 2px;
+  background-color: #00BFFF;    
+}
+
+select:focus {
+  outline: 2px solid #BBD4D4;
+  outline-offset: 2px; 
+}
+
 button {
     margin-top: 10px;
-    color: #2d2b30;  /*CHANGE COLOR!!!*/
-    background: #4DAF7C; /*CHANGE COLOR!!!*/
+    color: #2d2b30; 
+    background: #4DAF7C; 
     cursor: pointer;
     padding: 5px;
     margin: 0 auto;
@@ -79,16 +94,11 @@ button:hover {
     color: #fff;
 }
 
-input:focus,
-textarea:focus {
-  outline: 0;
-  border: 2px solid tomato;  /*Change Color!!!!*/
-  background-color: yellow;  /*Change Color!!!!*/
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+button:focus {
+  outline: 2px solid #E8E8E8;
+  outline-offset: 2px;
+  background: #00BFFF;
 }
-
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
