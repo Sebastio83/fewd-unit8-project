@@ -11,6 +11,15 @@ body {
   color: #4DAF7C; 
   background: #2d2b30; 
 }
+
+header {
+  text-align: center;
+  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  height: 350px;
+}
  
 h1 {
   margin: 4.3rem 0 auto;
@@ -74,15 +83,6 @@ a:focus {
 
 .nav a:hover {
   color: #E8E8E8; 
-}
-
-header {
-  text-align: center;
-  background: url('../img/concert02_no_text.jpg') no-repeat top center ;
-  background-size: cover;
-  overflow: hidden;
-  padding-top: 60px;
-  height: 350px;
 }
 
 .name{
