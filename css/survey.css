@@ -28,7 +28,7 @@
     margin: 10px 0px 10px;
 }
 
-#hint {
+.hidden {
   display: none;
 }
 
@@ -40,7 +40,7 @@ form {
 
 legend {
   text-decoration: none;
-  text-align: left;
+  text-align: center;
   margin: 0 0 5px -2px;
 }
 
@@ -53,13 +53,16 @@ fieldset {
 label {
   display: block;
   text-align: left;
-  margin: 5px 0;
+  margin:10px auto;
 }
 
 select,
 textarea {
   display: block;
-  margin-top: 20px;
+}
+
+input[type="radio"] {
+  margin: 0 5px 0 20px;
 }
 
 input:focus,
