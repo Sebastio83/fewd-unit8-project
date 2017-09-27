@@ -34,7 +34,7 @@
 
 form {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   display: inline-block;
 }
 
@@ -42,6 +42,8 @@ legend {
   text-decoration: none;
   text-align: center;
   margin: 0 0 5px -2px;
+  position: absolute;
+  left: 50%;
 }
 
 fieldset {

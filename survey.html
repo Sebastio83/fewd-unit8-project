@@ -11,26 +11,26 @@
 
   <body>
     <a class="skip" href="#main">Skip to main content</a>
-    <div class="main-nav" role="navigation">
+    <nav class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html">Tour</a></li>
-        <li><a href="#">Survey</a></li>
+        <li class="active"><a href="#">Survey</a></li>
       </ul>
-    </div>
+    </nav>
 
     <header role="banner">
       <img id="header_photo" src="img/concert02_no_text.jpg" alt="People at a concert, one is forming a heart with his hands"/>
       <section id="header_text">
         <h1>ACCESSIBLE FROG</h1>
-        <h2 class="heading">we make awesome music</2>
+        <h2 class="heading">we make awesome music</h2>
       </section>
     </header>
 
     <main role="main">
       <section>
         <form class="survey" role="form" aria-label="Favorites Form" aria-describedby="survey_form">
-          <p id="survey_form" class="hidden">Choose your favorite bandmember, album and song.</p>
+          <p id="survey_form" class="hidden">Choose your favorite bandmember, album and song and sign up for our newsletter.</p>
           <fieldset>
             <legend id="survey" class="heading">Survey</legend>
             <div class="card">
@@ -74,12 +74,7 @@
               </div><!--/.flex-->
             </div><!--/.card-->
           </fieldset>
-        </form>
-      </section>
       
-      <section>
-        <form class="newsletter" role="form" aria-label="Newsletter Form" aria-describedby="newsletter_form">
-          <p id="newsletter_form" class="hidden">Sign in for our newsletter.</p>>
           <fieldset>
             <legend id="legend2" class= "heading">Newsletter</legend>
               <div class="card">

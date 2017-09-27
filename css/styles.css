@@ -53,6 +53,15 @@ header {
   top: 10%;
 }
 
+.heading {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.active a   {
+  color: #B2CCE5;
+}
+
 /* Link Styles */
 
 a {
@@ -80,6 +89,7 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  z-index: 1000;
 }
 
 .nav {
